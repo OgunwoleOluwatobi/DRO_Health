@@ -138,7 +138,7 @@ class MainView extends StatelessWidget {
                               crossAxisCount: 2,
                               crossAxisSpacing: SizeConfig.xMargin(context, 2),
                               mainAxisSpacing: SizeConfig.xMargin(context, 4),
-                              childAspectRatio: .8
+                              childAspectRatio: .7
                             ),
                             itemCount: model.filterProducts.length,
                             itemBuilder: (c, i) {
